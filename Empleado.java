@@ -10,9 +10,15 @@ class Empleado{
 		valorHoras=0;
 	}
 
+<<<<<<< HEAD
 	public Empleado(int legajo, int canth, float valorh){
 		this.legajo=legajo;
 		cantHoras=canth;
+=======
+	public Empleado(int leg, int cantHoras, float valorh){
+		legajo=leg;
+		this.cantHoras=cantHoras;
+>>>>>>> a95aee93e7dd65adc5bd60e31f0600e814c9d592
 		valorHoras=valorh;
 	}
 
