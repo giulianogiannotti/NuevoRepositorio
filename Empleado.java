@@ -10,9 +10,9 @@ class Empleado{
 		valorHoras=0;
 	}
 
-	public Empleado(int leg, int canth, float valorh){
+	public Empleado(int leg, int cantHoras, float valorh){
 		legajo=leg;
-		cantHoras=canth;
+		this.cantHoras=cantHoras;
 		valorHoras=valorh;
 	}
 
